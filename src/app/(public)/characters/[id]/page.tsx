@@ -35,7 +35,7 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
 
   return (
     <div className="bg-slate-200 flex items-center justify-center min-h-screen">
-      <div className="flex flex-col lg:flex-row border-solid border-8 border-primary bg-slate-100 m-20 rounded-b-3xl lg:rounded-r-3xl shadow-2xl">
+      <div className="flex flex-col lg:flex-row border-solid border-8 border-primary bg-slate-100 shadow-2xl">
         <div className="lg:w-2/5 w-full">
           <img
             width={400}
@@ -45,7 +45,7 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
             alt={name}
           />
         </div>
-        <div className="max-w-4xl mx-auto w-3/5 p-8 text-left">
+        <div className="max-w-4xl mx-auto lg:w-3/5 p-8 text-left">
           <h1 className="text-3xl font-bold mb-4 text-dark">{name}</h1>
           <p className="text-sm text-dark">
             {description || "Descrição não disponível"}

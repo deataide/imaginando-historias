@@ -4,7 +4,7 @@ import Logo from "/public/static/icon.svg";
 
 export default function Home() {
   return (
-    <main className="bg-secondary flex flex-col items-center justify-center px-8 text-light lg:flex-row lg:justify-around">
+    <main className="bg-secondary flex flex-col items-center justify-center px-8 text-light lg:flex-row lg:justify-around pb-4">
       <div className="flex flex-col items-start justify-center min-h-screen p-12 lg:p-24">
         <Image
           src={Logo}

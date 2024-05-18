@@ -4,7 +4,6 @@ import Pagination from '@/components/Pagination';
 import { Character } from '@/types/characters.type';
 import CharacterCard from '@/components/CharacterCard';
 import { getCharacters } from '@/utils/api';
-import Skeleton from '@/components/Skeleton';
 
 export default function Characters() {
   const [characters, setCharacters] = useState<Character[]>([]);
