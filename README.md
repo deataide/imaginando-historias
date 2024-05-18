@@ -15,7 +15,7 @@ Para rodar o projeto localmente, siga estas etapas:
 1. **Clonar o Repositório:**
 
    ```bash
-   git clone https://github.com/deataide/marvel-comics.git
+   git clone https://github.com/deataide/imaginando-historias.git
 
 2. **Instalar Dependências:**
 
